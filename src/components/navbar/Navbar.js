@@ -32,7 +32,7 @@ const Navbar = () => {
                         <a href="https://social.reinasalti.xyz/next-video-build/">Prototypes</a>
                     </li>
                     <li className="nav-item">
-                        <a className='btn' href="https://social.reinasalti.xyz/dragverse/">VISIT DRAGVERSE</a>
+                        <a className='btn' href="https://social.reinasalti.xyz/dragverse/">Connect Wallet</a>
                     </li>
 
                 </ul>
