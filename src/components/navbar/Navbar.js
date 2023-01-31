@@ -3,6 +3,8 @@ import {AiOutlineMenu, AiOutlineClose, AiOutlineBell, AiOutlineMail, AiOutlineUs
 import { Link } from 'react-router-dom'
 import './Navbar.css'
 import Logo from '../../assets/dragverselogo.png'
+import ConnectWallet from '../ConnectWallet/ConnectWallet';
+import { ConnectButton } from '@rainbow-me/rainbowkit';
 
 const Navbar = () => {
     const [click, setClick] = useState(false)
@@ -24,16 +26,16 @@ const Navbar = () => {
                         <a href="/create-avatar">Resources</a>
                     </li>
                     <li className="nav-item">
-                        <AiOutlineUser className='icon' />
-                    </li>
-                    <li className="nav-item">
                         <AiOutlineMail className='icon' />
                     </li>
                     <li className="nav-item">
                         <AiOutlineBell className='icon' />
                     </li>
                     <li className="nav-item">
-                        <a className='btn' href="https://social.reinasalti.xyz/dragverse/">Connect Wallet</a>
+                        <AiOutlineUser className='icon' />
+                    </li>
+                    <li className="nav-item">
+                        <ConnectWallet className= 'btn' />
                     </li>
 
                 </ul>
