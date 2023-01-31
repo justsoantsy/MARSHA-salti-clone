@@ -1,21 +1,22 @@
 .hero {
-    height: 100%;
+    height: 90vh;
     width: 100%;
+    top: 90px;
     object-fit: contain;
-    align-content: center;
-    display: fixed
+    color: #231a41;
 ;
 }
 
-.intro {
-    width: 50%;
-    height: 900px;
-    display:fixed;
-    padding-top: 100px;
-    padding-left: 100px;
-    padding-right: 100px;
-    align-content: center;
+#HeroHomeVideo {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+
 }
+
+
 
 .title {
     width: 100%;

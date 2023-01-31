@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from '../components/navbar/Navbar';
 import './Home.css'
 import Footer from '../components/footer/Footer';
+import HeroHomeVideo from '../assets/background-app-hero.mp4'
 
 const Home = () => {
   return (
@@ -9,15 +10,10 @@ const Home = () => {
         <Navbar />
 
         <div className='hero'>
-            <div className="title">
-                <p> DRAGVERSE</p>
-            </div>
-            < div className='subtitle'>    
-                <p> Decentralized Drag Network </p>
-            </div>
-            <div className= 'connect'>
-            <button  className='button'> Connect with Lens </button>
-            </div>
+         <video autoPlay loop muted id='HeroHomeVideo'>
+          <source src={HeroHomeVideo} type='video/mp4'/>
+         </video>
+
         </div>
         <Footer />
     </div>
